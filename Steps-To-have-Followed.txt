@@ -1,0 +1,43 @@
+1. First create a maven project.
+
+How to create maven project follow the steps
+
+step1. Open Eclipse IDE Goto File.
+
+step2. select/click on new.
+
+step3. Got to Others.
+
+step4. Type Maven Project on filter area.
+
+step5. press Next.
+
+step6. select default workspace and press next.
+
+step7. type in filter area org.apache.maven
+
+step8. scroll down on below group id and select maven-archtype-quick-start
+.
+step9. Enter Group ID and Archtitype id. EX-gropu id->Mindtree , Architype ID-> Assignment1.
+
+step10. your maven work space is created.
+
+step11. To Install seleneium dependency.
+
+step12. Go to POM.xml file and erase this tag.
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.11</version>
+      <scope>test</scope>
+    </dependency>
+	
+step13. Go to Google type selenium dependency. and click on first link.
+
+step14. Go to latest version *maximum usage click on that link. copy the dependecy there.
+
+step15. pasted the depedency from pom.xml file.
+
+step16. save this file refresh repositry you seen that pom files are downloaded.
+
+step17. you are ready to go with selenium testing.
